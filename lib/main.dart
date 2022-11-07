@@ -89,7 +89,7 @@ class MyApp extends StatelessWidget {
                           decoration: BoxDecoration(
                             image: const DecorationImage(
                               image: NetworkImage(
-                                  'https://s.hs-data.com/bilder/spieler/gross/284095.jpg'),
+                                  'https://asset.kompas.com/crops/_PZwsOXdAjb3tHESXE4qz2rGqk4=/0x0:510x340/750x500/data/photo/2022/03/16/62311576a96c0.jpg'),
                               fit: BoxFit.fitHeight,
                             ),
                             border: Border.all(
@@ -104,7 +104,7 @@ class MyApp extends StatelessWidget {
                           decoration: BoxDecoration(
                             image: const DecorationImage(
                               image: NetworkImage(
-                                  'https://s.hs-data.com/bilder/spieler/gross/284095.jpg'),
+                                  'https://pbs.twimg.com/media/FbLqQHWUEAE61zy?format=jpg&name=large'),
                               fit: BoxFit.fitHeight,
                             ),
                             border: Border.all(
@@ -119,7 +119,7 @@ class MyApp extends StatelessWidget {
                           decoration: BoxDecoration(
                             image: const DecorationImage(
                               image: NetworkImage(
-                                  'https://s.hs-data.com/bilder/spieler/gross/284095.jpg'),
+                                  'https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt96247d2368d51b2e/633f1c0c790c6d103d7f84f7/goal---image-w-crest--e1f6af55-feb3-4261-910d-5efd026a1dab.jpeg?auto=webp&format=jpg&quality=100'),
                               fit: BoxFit.fitHeight,
                             ),
                             border: Border.all(
@@ -134,7 +134,7 @@ class MyApp extends StatelessWidget {
                           decoration: BoxDecoration(
                             image: const DecorationImage(
                               image: NetworkImage(
-                                  'https://s.hs-data.com/bilder/spieler/gross/284095.jpg'),
+                                  'https://s.hs-data.com/bilder/spieler/gross/13029.jpg'),
                               fit: BoxFit.fitHeight,
                             ),
                             border: Border.all(
@@ -147,7 +147,134 @@ class MyApp extends StatelessWidget {
                     ),
                   ],
                 ),
-              )
+              ),
+              Container(
+                  height: 40.0,
+                  width: 600.0,
+                  color: Colors.white,
+                  child: ListView(
+                    children: <Widget>[
+                      Container(
+                        color: Colors.white,
+                        alignment: Alignment.center,
+                        padding: EdgeInsets.all(14.0),
+                        child: const Text(
+                            "Lima Pesepak Bola yang Terkenal Dermawan",
+                            style: TextStyle(
+                              fontSize: 11,
+                              color: Colors.black,
+                            )),
+                      ),
+                    ],
+                  )),
+              Container(
+                height: 600.0,
+                width: 600.0,
+                child: ListView(
+                  children: <Widget>[
+                    Column(
+                      children: <Widget>[
+                        Row(
+                          children: <Widget>[
+                            Container(
+                              height: 150.0,
+                              width: 150.0,
+                              color: Colors.red,
+                              padding: EdgeInsets.all(16.0),
+                              margin: EdgeInsets.symmetric(vertical: 5.0),
+                              child: Image(
+                                  image: NetworkImage(
+                                      'https://s.hs-data.com/bilder/spieler/gross/284095.jpg')),
+                            ),
+                            Container(
+                              height: 150.0,
+                              width: 350.0,
+                              color: Colors.red,
+                              alignment: Alignment.center,
+                              padding: EdgeInsets.all(15.0),
+                              child: const Text("1. Kylian Mbappe",
+                                  style: TextStyle(
+                                      fontSize: 11, color: Colors.white)),
+                            ),
+                          ],
+                        ),
+                        Row(
+                          children: <Widget>[
+                            Container(
+                              height: 150.0,
+                              width: 150.0,
+                              color: Colors.red,
+                              padding: EdgeInsets.all(16.0),
+                              margin: EdgeInsets.symmetric(vertical: 5.0),
+                              child: Image(
+                                  image: NetworkImage(
+                                      'https://s.hs-data.com/bilder/spieler/gross/284095.jpg')),
+                            ),
+                            Container(
+                              height: 150.0,
+                              width: 350.0,
+                              color: Colors.red,
+                              alignment: Alignment.center,
+                              padding: EdgeInsets.all(15.0),
+                              child: const Text("1. Kylian Mbappe",
+                                  style: TextStyle(
+                                      fontSize: 11, color: Colors.white)),
+                            ),
+                          ],
+                        ),
+                        Row(
+                          children: <Widget>[
+                            Container(
+                              height: 150.0,
+                              width: 150.0,
+                              color: Colors.red,
+                              padding: EdgeInsets.all(16.0),
+                              margin: EdgeInsets.symmetric(vertical: 5.0),
+                              child: Image(
+                                  image: NetworkImage(
+                                      'https://s.hs-data.com/bilder/spieler/gross/284095.jpg')),
+                            ),
+                            Container(
+                              height: 150.0,
+                              width: 350.0,
+                              color: Colors.red,
+                              alignment: Alignment.center,
+                              padding: EdgeInsets.all(15.0),
+                              child: const Text("1. Kylian Mbappe",
+                                  style: TextStyle(
+                                      fontSize: 11, color: Colors.white)),
+                            ),
+                          ],
+                        ),
+                        Row(
+                          children: <Widget>[
+                            Container(
+                              height: 150.0,
+                              width: 150.0,
+                              color: Colors.red,
+                              padding: EdgeInsets.all(16.0),
+                              margin: EdgeInsets.symmetric(vertical: 5.0),
+                              child: Image(
+                                  image: NetworkImage(
+                                      'https://s.hs-data.com/bilder/spieler/gross/284095.jpg')),
+                            ),
+                            Container(
+                              height: 150.0,
+                              width: 350.0,
+                              color: Colors.red,
+                              alignment: Alignment.center,
+                              padding: EdgeInsets.all(15.0),
+                              child: const Text("1. Kylian Mbappe",
+                                  style: TextStyle(
+                                      fontSize: 11, color: Colors.white)),
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
+                  ],
+                ),
+              ),
             ],
           ),
         ));
