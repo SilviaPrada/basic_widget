@@ -63,14 +63,14 @@ class MyApp extends StatelessWidget {
                   )),
               Container(
                 height: 200.0,
-                width: 600.0,
+                width: 430.0,
                 child: ListView(
                   children: <Widget>[
                     Row(
                       children: <Widget>[
                         Container(
                           height: 200.0,
-                          width: 100.0,
+                          width: 78.0,
                           decoration: BoxDecoration(
                             image: const DecorationImage(
                               image: NetworkImage(
@@ -85,11 +85,11 @@ class MyApp extends StatelessWidget {
                         ),
                         Container(
                           height: 200.0,
-                          width: 100.0,
+                          width: 78.0,
                           decoration: BoxDecoration(
                             image: const DecorationImage(
                               image: NetworkImage(
-                                  'https://asset.kompas.com/crops/_PZwsOXdAjb3tHESXE4qz2rGqk4=/0x0:510x340/750x500/data/photo/2022/03/16/62311576a96c0.jpg'),
+                                  'https://t-2.tstatic.net/jogja/foto/bank/images/profil-lionel-messi-argentina-piala-dunia-2022-qatar.jpg'),
                               fit: BoxFit.fitHeight,
                             ),
                             border: Border.all(
@@ -100,7 +100,7 @@ class MyApp extends StatelessWidget {
                         ),
                         Container(
                           height: 200.0,
-                          width: 100.0,
+                          width: 78.0,
                           decoration: BoxDecoration(
                             image: const DecorationImage(
                               image: NetworkImage(
@@ -115,7 +115,7 @@ class MyApp extends StatelessWidget {
                         ),
                         Container(
                           height: 200.0,
-                          width: 100.0,
+                          width: 78.0,
                           decoration: BoxDecoration(
                             image: const DecorationImage(
                               image: NetworkImage(
@@ -130,7 +130,7 @@ class MyApp extends StatelessWidget {
                         ),
                         Container(
                           height: 200.0,
-                          width: 100.0,
+                          width: 78.0,
                           decoration: BoxDecoration(
                             image: const DecorationImage(
                               image: NetworkImage(
@@ -169,7 +169,7 @@ class MyApp extends StatelessWidget {
                   )),
               Container(
                 height: 600.0,
-                width: 600.0,
+                width: 430.0,
                 child: ListView(
                   children: <Widget>[
                     Column(
@@ -178,7 +178,7 @@ class MyApp extends StatelessWidget {
                           children: <Widget>[
                             Container(
                               height: 150.0,
-                              width: 150.0,
+                              width: 140.0,
                               color: Colors.red,
                               padding: EdgeInsets.all(16.0),
                               margin: EdgeInsets.symmetric(vertical: 5.0),
@@ -188,7 +188,7 @@ class MyApp extends StatelessWidget {
                             ),
                             Container(
                               height: 150.0,
-                              width: 350.0,
+                              width: 250.0,
                               color: Colors.red,
                               alignment: Alignment.center,
                               padding: EdgeInsets.all(15.0),
@@ -202,21 +202,21 @@ class MyApp extends StatelessWidget {
                           children: <Widget>[
                             Container(
                               height: 150.0,
-                              width: 150.0,
+                              width: 140.0,
                               color: Colors.red,
                               padding: EdgeInsets.all(16.0),
                               margin: EdgeInsets.symmetric(vertical: 5.0),
                               child: Image(
                                   image: NetworkImage(
-                                      'https://s.hs-data.com/bilder/spieler/gross/284095.jpg')),
+                                      'https://t-2.tstatic.net/jogja/foto/bank/images/profil-lionel-messi-argentina-piala-dunia-2022-qatar.jpg')),
                             ),
                             Container(
                               height: 150.0,
-                              width: 350.0,
+                              width: 250.0,
                               color: Colors.red,
                               alignment: Alignment.center,
                               padding: EdgeInsets.all(15.0),
-                              child: const Text("1. Kylian Mbappe",
+                              child: const Text("2. Lionel Messi",
                                   style: TextStyle(
                                       fontSize: 11, color: Colors.white)),
                             ),
@@ -226,21 +226,21 @@ class MyApp extends StatelessWidget {
                           children: <Widget>[
                             Container(
                               height: 150.0,
-                              width: 150.0,
+                              width: 140.0,
                               color: Colors.red,
                               padding: EdgeInsets.all(16.0),
                               margin: EdgeInsets.symmetric(vertical: 5.0),
                               child: Image(
                                   image: NetworkImage(
-                                      'https://s.hs-data.com/bilder/spieler/gross/284095.jpg')),
+                                      'https://pbs.twimg.com/media/FbLqQHWUEAE61zy?format=jpg&name=large')),
                             ),
                             Container(
                               height: 150.0,
-                              width: 350.0,
+                              width: 250.0,
                               color: Colors.red,
                               alignment: Alignment.center,
                               padding: EdgeInsets.all(15.0),
-                              child: const Text("1. Kylian Mbappe",
+                              child: const Text("3. Christiano Ronaldo",
                                   style: TextStyle(
                                       fontSize: 11, color: Colors.white)),
                             ),
@@ -250,21 +250,45 @@ class MyApp extends StatelessWidget {
                           children: <Widget>[
                             Container(
                               height: 150.0,
-                              width: 150.0,
+                              width: 140.0,
                               color: Colors.red,
                               padding: EdgeInsets.all(16.0),
                               margin: EdgeInsets.symmetric(vertical: 5.0),
                               child: Image(
                                   image: NetworkImage(
-                                      'https://s.hs-data.com/bilder/spieler/gross/284095.jpg')),
+                                      'https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt96247d2368d51b2e/633f1c0c790c6d103d7f84f7/goal---image-w-crest--e1f6af55-feb3-4261-910d-5efd026a1dab.jpeg?auto=webp&format=jpg&quality=100')),
                             ),
                             Container(
                               height: 150.0,
-                              width: 350.0,
+                              width: 250.0,
                               color: Colors.red,
                               alignment: Alignment.center,
                               padding: EdgeInsets.all(15.0),
-                              child: const Text("1. Kylian Mbappe",
+                              child: const Text("4. Cristiano Ronaldo",
+                                  style: TextStyle(
+                                      fontSize: 11, color: Colors.white)),
+                            ),
+                          ],
+                        ),
+                        Row(
+                          children: <Widget>[
+                            Container(
+                              height: 150.0,
+                              width: 140.0,
+                              color: Colors.red,
+                              padding: EdgeInsets.all(16.0),
+                              margin: EdgeInsets.symmetric(vertical: 5.0),
+                              child: Image(
+                                  image: NetworkImage(
+                                      'https://s.hs-data.com/bilder/spieler/gross/13029.jpg')),
+                            ),
+                            Container(
+                              height: 150.0,
+                              width: 250.0,
+                              color: Colors.red,
+                              alignment: Alignment.center,
+                              padding: EdgeInsets.all(15.0),
+                              child: const Text("5. Cristiano Ronaldo",
                                   style: TextStyle(
                                       fontSize: 11, color: Colors.white)),
                             ),
@@ -278,90 +302,5 @@ class MyApp extends StatelessWidget {
             ],
           ),
         ));
-  }
-}
-
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key? key, required this.title}) : super(key: key);
-
-  // This widget is the home page of your application. It is stateful, meaning
-  // that it has a State object (defined below) that contains fields that affect
-  // how it looks.
-
-  // This class is the configuration for the state. It holds the values (in this
-  // case the title) provided by the parent (in this case the App widget) and
-  // used by the build method of the State. Fields in a Widget subclass are
-  // always marked "final".
-
-  final String title;
-
-  @override
-  State<MyHomePage> createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
-
-  void _incrementCounter() {
-    setState(() {
-      // This call to setState tells the Flutter framework that something has
-      // changed in this State, which causes it to rerun the build method below
-      // so that the display can reflect the updated values. If we changed
-      // _counter without calling setState(), then the build method would not be
-      // called again, and so nothing would appear to happen.
-      _counter++;
-    });
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    // This method is rerun every time setState is called, for instance as done
-    // by the _incrementCounter method above.
-    //
-    // The Flutter framework has been optimized to make rerunning build methods
-    // fast, so that you can just rebuild anything that needs updating rather
-    // than having to individually change instances of widgets.
-    return Scaffold(
-      appBar: AppBar(
-        // Here we take the value from the MyHomePage object that was created by
-        // the App.build method, and use it to set our appbar title.
-        title: Text(widget.title),
-      ),
-      body: Center(
-        // Center is a layout widget. It takes a single child and positions it
-        // in the middle of the parent.
-        child: Column(
-          // Column is also a layout widget. It takes a list of children and
-          // arranges them vertically. By default, it sizes itself to fit its
-          // children horizontally, and tries to be as tall as its parent.
-          //
-          // Invoke "debug painting" (press "p" in the console, choose the
-          // "Toggle Debug Paint" action from the Flutter Inspector in Android
-          // Studio, or the "Toggle Debug Paint" command in Visual Studio Code)
-          // to see the wireframe for each widget.
-          //
-          // Column has various properties to control how it sizes itself and
-          // how it positions its children. Here we use mainAxisAlignment to
-          // center the children vertically; the main axis here is the vertical
-          // axis because Columns are vertical (the cross axis would be
-          // horizontal).
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            const Text(
-              'You have pushed the button this many times:',
-            ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headline4,
-            ),
-          ],
-        ),
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: const Icon(Icons.add),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
-    );
   }
 }
